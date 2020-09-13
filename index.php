@@ -7,3 +7,4 @@ include("system/traits/View.php");
 include("application/controllers/Controller.php");
 include("application/controllers/Home.php");
 include('system/bootstrap/boot.php');
+ ?>
