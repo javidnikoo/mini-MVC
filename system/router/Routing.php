@@ -1,11 +1,10 @@
 <?php
 namespace System\router;
-
 use ReflectionMethod;
 
 class Routing{
-// masire hale hazere karbar 
-    private $current_route;
+//  User current path (get from config.php)
+    private $current_route; 
     // in yek tabe sazandeh ast
     public function __construct(){
         global $current_route;

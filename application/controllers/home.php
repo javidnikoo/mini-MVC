@@ -13,5 +13,9 @@ class Home extends Controller{
         echo "this is a create method";
     }
 
+    public function edit(){
+        echo "this is a edit method";
+    }
+
 
 }
