@@ -2,7 +2,7 @@ RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.+)$ mvc/index.php [QSA,L]
+RewriteRule ^(.+)$ mini-MVC/index.php [QSA,L]
 
 
 RewriteEngine on
