@@ -1,16 +1,14 @@
 <?php
 
 // webfile address (where is your file in your server or localhost)
-$base_url = "http://localhost/mvc/";
+$base_url = "http://localhost/mini-MVC/";
 
-// the folder your project
-$base_dir = "/mvc/";
+// the folder the Website
+$base_dir = "/mini-MVC/";
 
-// tabdile str be array (adresse safhe agar ba alamat soal bod )
+// if the url have ? do str to array (array[0]?array[1])
 $tmp = explode('?', $_SERVER['REQUEST_URI']);
 
-
-
-//jabeja kardane link 
+// replace the link
 $current_route = str_replace($base_dir,'',$tmp[0]);
 unset($tmp);
